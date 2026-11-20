@@ -1,7 +1,4 @@
-# Awesome MLLM Re-Identification
-
-[![Validate](https://github.com/Reflection0427/Awesome-MLLM-ReID/actions/workflows/validate.yml/badge.svg)](https://github.com/Reflection0427/Awesome-MLLM-ReID/actions/workflows/validate.yml)
-[![Discover Papers](https://github.com/Reflection0427/Awesome-MLLM-ReID/actions/workflows/discover-papers.yml/badge.svg)](https://github.com/Reflection0427/Awesome-MLLM-ReID/actions/workflows/discover-papers.yml)
+# MLLM Related Re-Identification
 
 本仓库系统整理多模态大语言模型（MLLM）、大型视觉语言模型（LVLM）与 Re-Identification（ReID）交叉领域的研究工作，重点关注大模型在行人重识别、交互式行人检索、多模态特征学习和跨模态检索中的应用。
 
@@ -137,78 +134,5 @@
 | ICCV 2025 | DistillCIR | [Paper](https://openaccess.thecvf.com/content/ICCV2025/html/Zhong_Zero-Shot_Composed_Image_Retrieval_via_Dual-Stream_Instruction-Aware_Distillation_ICCV_2025_paper.html) | [Project / Model](https://distillcir.github.io/) | `Composed Image Retrieval` `Knowledge Distillation` |
 | arXiv 2025 | SoFT | [Paper](https://arxiv.org/abs/2512.20781) | [Code](https://github.com/jjungyujin/SoFT) | `Composed Image Retrieval` `Zero-Shot Retrieval` |
 
----
-
-## 4. Framework Figures
-
-本仓库为每篇论文提供作者原始 Framework / Architecture / Pipeline 图，方便快速理解论文整体技术路线。
-
-所有框架图均从对应论文的固定版本官方 PDF 中提取，不使用自绘图、博客截图或 AI 生成图。
-
-框架图存放于：
-
-`assets/frameworks/`
-
-详细提取信息记录于：
-
-`data/papers.json`
-
-包括 PDF 地址、SHA-256、页码、Figure 编号及裁剪区域。
-
-### Figure Extraction
-
-```bash
-python -m pip install -r requirements.txt
-
-# Extract all framework figures
-python scripts/extract_figure.py --all
-
-# Verify extracted figures
-python scripts/extract_figure.py --all --verify-only
-
-# Check README consistency
-python scripts/generate_readme.py --check
-
-# Run tests
-python -m unittest discover -s tests -v
-```
-
----
-
-## 5. Automatic Paper Tracking
-
-仓库通过定期自动化工作流检索最新论文，数据来源包括：
-
-- arXiv
-- OpenAlex
-- Crossref
-
-每周一自动检索并创建或更新候选 Pull Request。
-
-自动检索结果不会直接进入正式论文列表。所有候选论文需要经过人工审核，包括：
-
-1. 阅读论文并确认研究方向。
-2. 核实论文标题、发表信息和资源链接。
-3. 确认与 MLLM-ReID 研究的相关性。
-4. 选择作者提供的原始框架图。
-5. 提取框架图并更新论文数据。
-
----
-
-## 6. Contributing
-
-欢迎研究人员提交相关论文、代码资源和改进建议。
-
-请通过 GitHub Issue 或 Pull Request 参与贡献。
-
-详细规范请参考：
-
-[Paper Tracking and Review Guide](docs/PAPER_TRACKER.md)
-
----
-
-## 7. License
-
-仓库代码及整理者编写的元数据采用 MIT License。
 
 论文原始框架图的版权及其他相关权利仍归论文作者或出版方所有。
