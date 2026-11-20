@@ -143,4 +143,5 @@ GitHub Actions 每周一 09:17（北京时间）搜索 arXiv、OpenAlex 和 Cros
 <!-- discovered-papers:start -->
 | Publication date | Paper | Source |
 |---|---|---|
+| 2026-11-02 | VLM-as-a-Judge for Person Re-Identification | [arXiv](https://arxiv.org/abs/2611.03027) |
 <!-- discovered-papers:end -->
