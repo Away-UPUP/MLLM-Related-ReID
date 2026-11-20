@@ -136,3 +136,11 @@
 | ICCV 2025 | DistillCIR | [Paper](https://openaccess.thecvf.com/content/ICCV2025/html/Zhong_Zero-Shot_Composed_Image_Retrieval_via_Dual-Stream_Instruction-Aware_Distillation_ICCV_2025_paper.html) | [Project / Model](https://distillcir.github.io/) | `Composed Image Retrieval` `Knowledge Distillation` | <a href="assets/frameworks/distillcir.png"><img src="assets/frameworks/distillcir.png" width="240" alt="DistillCIR framework diagram"></a><br><sub><a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Zhong_Zero-Shot_Composed_Image_Retrieval_via_Dual-Stream_Instruction-Aware_Distillation_ICCV_2025_paper.pdf">Figure 2 · PDF</a></sub> |
 | arXiv 2025 | SoFT | [Paper](https://arxiv.org/abs/2512.20781) | [Code](https://github.com/jjungyujin/SoFT) | `Composed Image Retrieval` `Zero-Shot Retrieval` | <a href="assets/frameworks/soft.png"><img src="assets/frameworks/soft.png" width="240" alt="SoFT framework diagram"></a><br><sub><a href="https://arxiv.org/pdf/2512.20781v1">Figure 2 · PDF</a></sub> |
 
+## 4. 自动发现的论文
+
+GitHub Actions 每周一 09:17（北京时间）搜索 arXiv、OpenAlex 和 Crossref 最近 60 天的结果。符合 MLLM / LVLM 与 ReID 方向的论文会自动收录在下表，按发布日期排序。[查看运行记录或手动触发](https://github.com/Away-UPUP/MLLM-Related-ReID/actions/workflows/update-papers.yml)。
+
+<!-- discovered-papers:start -->
+| Publication date | Paper | Source |
+|---|---|---|
+<!-- discovered-papers:end -->

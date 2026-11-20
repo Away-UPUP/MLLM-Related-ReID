@@ -1,0 +1,25 @@
+Chain-of-Thought Guided Multi-Modal Object Re-Identification
+Iterative Self-Correction for Text-Driven Person Re-Identification with Large Vision-Language Models
+When Large Vision-Language Models Meet Person Re-Identification
+Interactive Person Retrieval via Multi-Turn Multimodal Conversation
+Multi-Grained Vision-Language Alignment for Domain Generalized Person Re-Identification
+Multimodal LLM-Empowered Re-Ranking for Generalizable Person Re-Identification
+Modeling Thousands of Human Annotators for Generalizable Text-to-Image Person Re-identification
+Human-centered Interactive Learning via MLLMs for Text-to-Image Person Re-identification
+PVTNL: Prompting Vision Transformers with Natural Language for Generalizable Person Re-identification
+ChatReID: Open-ended Interactive Person Retrieval via Hierarchical Progressive Tuning for Vision Language Models
+Generalizable Object Re-Identification via Visual In-Context Prompting
+LLaVA-ReID: Selective Multi-image Questioner for Interactive Person Re-Identification
+MMReID-Bench: Unleashing the Power of MLLMs for Effective and Versatile Person Re-identification
+Instruct-ReID: A Multi-purpose Person Re-identification Task with Instructions
+Harnessing the Power of MLLMs for Transferable Text-to-Image Person ReID
+MLLMReID: Multimodal Large Language Model-based Person Re-identification
+ReCALL: Recalibrating Capability Degradation for MLLM-based Composed Image Retrieval
+U-MARVEL: Unveiling Key Factors for Universal Multimodal Retrieval via Embedding Learning with MLLMs
+FreeRet: MLLMs as Training-Free Retrievers
+Leveraging Large Vision-Language Model as User Intent-Aware Encoder for Composed Image Retrieval
+Zero-Shot Composed Image Retrieval via Dual-Stream Instruction-Aware Distillation
+MM-Embed: Universal Multimodal Retrieval with Multimodal LLMs
+VLM2Vec: Training Vision-Language Models for Massive Multimodal Embedding Tasks
+Chain-of-Thought Re-ranking for Image Retrieval Tasks
+Soft Filtering: Guiding Zero-shot Composed Image Retrieval with Prescriptive and Proscriptive Constraints
